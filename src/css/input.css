@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .overlay__header {
+        @apply bg-[url('../img/pattern__hero.svg')] bg-slate-900 bg-no-repeat;
+    }
+
+    #header {
+        -webkit-backdrop-filter: blur(80px);
+        backdrop-filter: blur(80px);
+
+    }
+
+    .overlay__about {
+        @apply bg-[url('../img/pattern__works.svg')] bg-slate-900 bg-no-repeat bg-left;
+    }
+
+    .overlay__team {
+        @apply bg-[url('../img/pattern__team.svg')] bg-slate-900 bg-no-repeat bg-right;
+    }
+
+    .overlay__project {
+        @apply bg-slate-900;
+    }
+
+    .overlay__pricing {
+        @apply bg-slate-900;
+    }
+}
