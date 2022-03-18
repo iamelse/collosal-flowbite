@@ -762,12 +762,22 @@ input:checked + .toggle-bg {
   background-repeat: no-repeat;
 }
 
+#home__about {
+  -webkit-backdrop-filter: blur(55px);
+  backdrop-filter: blur(55px);
+}
+
 .overlay__team {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   background-image: url('../img/pattern__team.svg');
   background-position: right;
   background-repeat: no-repeat;
+}
+
+#home__team {
+  -webkit-backdrop-filter: blur(55px);
+  backdrop-filter: blur(55px);
 }
 
 .overlay__project {
