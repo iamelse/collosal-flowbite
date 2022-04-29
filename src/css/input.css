@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base {
     .overlay__header {
-        @apply bg-[url('../img/pattern__hero.svg')] bg-slate-900 bg-no-repeat;
+        @apply bg-[url('../img/pattern__hero.svg')] bg-no-repeat;
     }
     #header {
         -webkit-backdrop-filter: blur(80px);
